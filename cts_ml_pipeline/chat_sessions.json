@@ -1,0 +1,3496 @@
+{
+  "a41c7536-dbf9-466c-92d6-f56a9cd4fa8e": {
+    "id": "a41c7536-dbf9-466c-92d6-f56a9cd4fa8e",
+    "title": "can you create pie for tomorro...",
+    "created_at": "2026-07-14T23:15:26.159845",
+    "messages": [
+      {
+        "timestamp": "2026-07-14T23:15:26.159845",
+        "query": "can you create pie for tomorrow predication",
+        "response": "Here is the chart you requested. Based on the data, tomorrow's predicted total revenue is $1487.15. The top-performing stores for tomorrow are expected to be Store #018 - West Michael, Store #016 - Port Jesseville, and Store #023 - East Lydiamouth, with predicted revenues of $65.37, $65.19, and $64.16, respectively.\n\nKey metrics to note:\n* Total predicted units tomorrow: 242.0\n* Top demand products: Spicy Chicken Sandwich (Combo), Crispy Chicken Sandwich (Combo), and Hotcakes (Combo)\n* Low stock alerts: 16 products, including Spicy Chicken Sandwich (Combo) and Crispy Chicken Sandwich (Combo)\n* Growing categories: Chicken, Burgers, Breakfast, Sides, Desserts, and Beverages, with the Chicken category showing the highest growth in quantity (2500%) and revenue (4045.91%) over the last 30 days.",
+        "visualization": null,
+        "agent_data": {
+          "sales": {
+            "agent": "Sales Agent",
+            "total_actual_revenue": 30140.63,
+            "predicted_tomorrow_total": 1487.15,
+            "top_performing_stores": [
+              {
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "revenue": 1058.37,
+                "quantity": 208,
+                "orders": 63,
+                "customers": 58,
+                "avg_order_revenue": 16.7995,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 26,
+                "store_name": "Store #026 - Wilkersonmouth",
+                "city": "North Deniseside",
+                "state": "California",
+                "store_type": "Mall Location",
+                "revenue": 975.4,
+                "quantity": 184,
+                "orders": 59,
+                "customers": 57,
+                "avg_order_revenue": 16.5322,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "revenue": 963.45,
+                "quantity": 186,
+                "orders": 57,
+                "customers": 54,
+                "avg_order_revenue": 16.9026,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 7,
+                "store_name": "Store #007 - Lisatown",
+                "city": "Brandtside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 946.55,
+                "quantity": 195,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 17.5287,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "revenue": 915.83,
+                "quantity": 179,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 16.9598,
+                "performance_label": "Best-performing"
+              }
+            ],
+            "worst_performing_stores": [
+              {
+                "store_id": 33,
+                "store_name": "Store #033 - Tashatown",
+                "city": "Mooreport",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "revenue": 497.02,
+                "quantity": 105,
+                "orders": 40,
+                "customers": 37,
+                "avg_order_revenue": 12.4255,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 27,
+                "store_name": "Store #027 - West Donald",
+                "city": "North Sarabury",
+                "state": "Michigan",
+                "store_type": "Kiosk",
+                "revenue": 514.68,
+                "quantity": 107,
+                "orders": 38,
+                "customers": 37,
+                "avg_order_revenue": 13.5442,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 38,
+                "store_name": "Store #038 - Port Colleenhaven",
+                "city": "Port Jacobland",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 582.95,
+                "quantity": 110,
+                "orders": 46,
+                "customers": 44,
+                "avg_order_revenue": 12.6728,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 32,
+                "store_name": "Store #032 - South Patrickmouth",
+                "city": "Rodneyside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 607.19,
+                "quantity": 108,
+                "orders": 35,
+                "customers": 33,
+                "avg_order_revenue": 17.3483,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 8,
+                "store_name": "Store #008 - Lake Roberto",
+                "city": "Lake Larry",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 608.53,
+                "quantity": 120,
+                "orders": 36,
+                "customers": 35,
+                "avg_order_revenue": 16.9036,
+                "performance_label": "Low-performing"
+              }
+            ],
+            "tomorrow_top_stores": [
+              {
+                "order_date": "2026-07-13",
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "predicted_revenue": 65.3658
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "predicted_revenue": 65.1866
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "predicted_revenue": 64.1551
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 4,
+                "store_name": "Store #004 - East Jessetown",
+                "city": "North Jessicaland",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 62.3172
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 10,
+                "store_name": "Store #010 - North Noahstad",
+                "city": "Martinezbury",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 61.796
+              }
+            ],
+            "ml_metrics": {
+              "daily_sales": {
+                "mae": 21.2759,
+                "rmse": 154.2492,
+                "r2": 0.2508
+              },
+              "weekly_sales": {
+                "mae": 62.4333,
+                "rmse": 231.0331,
+                "r2": 0.645
+              },
+              "store_revenue": {
+                "mae": 5.501,
+                "rmse": 10.2292,
+                "r2": 0.732
+              },
+              "product_demand": {
+                "mae": 0.2068,
+                "rmse": 0.9209,
+                "r2": 0.7079
+              },
+              "customer_segmentation": {
+                "k": 2,
+                "silhouette": 0.2266
+              }
+            }
+          },
+          "inventory": {
+            "agent": "Inventory Agent",
+            "total_predicted_units_tomorrow": 242.0,
+            "top_demand_products": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "low_stock_alerts": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "overstock_products": [],
+            "low_stock_count": 16,
+            "overstock_count": 0
+          },
+          "trends": {
+            "agent": "Trend Agent",
+            "category_trends": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              },
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "growing_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              }
+            ],
+            "stable_categories": [
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "declining_categories": [],
+            "top_growth_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              }
+            ],
+            "summary": "6 categories growing, 1 stable, 0 declining."
+          }
+        }
+      },
+      {
+        "timestamp": "2026-07-14T23:16:33.926604",
+        "query": "why sales drop in somestore",
+        "response": "The sales drop in some stores can be attributed to various factors. According to the Sales Agent data, the worst-performing stores include Store #033 - Tashatown, Store #027 - West Donald, and Store #038 - Port Colleenhaven, with revenues of $497.02, $514.68, and $582.95, respectively. These stores have lower average order revenues and customer counts compared to the top-performing stores.\n\nKey metrics for the worst-performing stores include:\n* Low revenue: $497.02 - $582.95\n* Low average order revenue: $12.43 - $12.67\n* Low customer count: 37 - 44\n\nThe Inventory Agent data highlights that there are low stock alerts for several products, including Spicy Chicken Sandwich (Combo), Crispy Chicken Sandwich (Combo), and Hotcakes (Combo), which may be contributing to the sales drop. The Trend Agent data shows that categories like Chicken, Burgers, Breakfast, Sides, Desserts, and Beverages are growing, while McCafe is stable. This suggests that the sales drop may not be due to a decline in demand for specific categories, but rather due to other factors such as inventory management or store-specific issues.",
+        "visualization": null,
+        "agent_data": {
+          "sales": {
+            "agent": "Sales Agent",
+            "total_actual_revenue": 30140.63,
+            "predicted_tomorrow_total": 1487.15,
+            "top_performing_stores": [
+              {
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "revenue": 1058.37,
+                "quantity": 208,
+                "orders": 63,
+                "customers": 58,
+                "avg_order_revenue": 16.7995,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 26,
+                "store_name": "Store #026 - Wilkersonmouth",
+                "city": "North Deniseside",
+                "state": "California",
+                "store_type": "Mall Location",
+                "revenue": 975.4,
+                "quantity": 184,
+                "orders": 59,
+                "customers": 57,
+                "avg_order_revenue": 16.5322,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "revenue": 963.45,
+                "quantity": 186,
+                "orders": 57,
+                "customers": 54,
+                "avg_order_revenue": 16.9026,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 7,
+                "store_name": "Store #007 - Lisatown",
+                "city": "Brandtside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 946.55,
+                "quantity": 195,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 17.5287,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "revenue": 915.83,
+                "quantity": 179,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 16.9598,
+                "performance_label": "Best-performing"
+              }
+            ],
+            "worst_performing_stores": [
+              {
+                "store_id": 33,
+                "store_name": "Store #033 - Tashatown",
+                "city": "Mooreport",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "revenue": 497.02,
+                "quantity": 105,
+                "orders": 40,
+                "customers": 37,
+                "avg_order_revenue": 12.4255,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 27,
+                "store_name": "Store #027 - West Donald",
+                "city": "North Sarabury",
+                "state": "Michigan",
+                "store_type": "Kiosk",
+                "revenue": 514.68,
+                "quantity": 107,
+                "orders": 38,
+                "customers": 37,
+                "avg_order_revenue": 13.5442,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 38,
+                "store_name": "Store #038 - Port Colleenhaven",
+                "city": "Port Jacobland",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 582.95,
+                "quantity": 110,
+                "orders": 46,
+                "customers": 44,
+                "avg_order_revenue": 12.6728,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 32,
+                "store_name": "Store #032 - South Patrickmouth",
+                "city": "Rodneyside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 607.19,
+                "quantity": 108,
+                "orders": 35,
+                "customers": 33,
+                "avg_order_revenue": 17.3483,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 8,
+                "store_name": "Store #008 - Lake Roberto",
+                "city": "Lake Larry",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 608.53,
+                "quantity": 120,
+                "orders": 36,
+                "customers": 35,
+                "avg_order_revenue": 16.9036,
+                "performance_label": "Low-performing"
+              }
+            ],
+            "tomorrow_top_stores": [
+              {
+                "order_date": "2026-07-13",
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "predicted_revenue": 65.3658
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "predicted_revenue": 65.1866
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "predicted_revenue": 64.1551
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 4,
+                "store_name": "Store #004 - East Jessetown",
+                "city": "North Jessicaland",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 62.3172
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 10,
+                "store_name": "Store #010 - North Noahstad",
+                "city": "Martinezbury",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 61.796
+              }
+            ],
+            "ml_metrics": {
+              "daily_sales": {
+                "mae": 21.2759,
+                "rmse": 154.2492,
+                "r2": 0.2508
+              },
+              "weekly_sales": {
+                "mae": 62.4333,
+                "rmse": 231.0331,
+                "r2": 0.645
+              },
+              "store_revenue": {
+                "mae": 5.501,
+                "rmse": 10.2292,
+                "r2": 0.732
+              },
+              "product_demand": {
+                "mae": 0.2068,
+                "rmse": 0.9209,
+                "r2": 0.7079
+              },
+              "customer_segmentation": {
+                "k": 2,
+                "silhouette": 0.2266
+              }
+            }
+          },
+          "inventory": {
+            "agent": "Inventory Agent",
+            "total_predicted_units_tomorrow": 242.0,
+            "top_demand_products": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "low_stock_alerts": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "overstock_products": [],
+            "low_stock_count": 16,
+            "overstock_count": 0
+          },
+          "trends": {
+            "agent": "Trend Agent",
+            "category_trends": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              },
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "growing_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              }
+            ],
+            "stable_categories": [
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "declining_categories": [],
+            "top_growth_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              }
+            ],
+            "summary": "6 categories growing, 1 stable, 0 declining."
+          }
+        }
+      }
+    ]
+  },
+  "24613f9b-49a0-484b-a76c-de28d4a16c1a": {
+    "id": "24613f9b-49a0-484b-a76c-de28d4a16c1a",
+    "title": "Give me a pie chart of categor...",
+    "created_at": "2026-07-14T23:18:16.134316",
+    "messages": [
+      {
+        "timestamp": "2026-07-14T23:18:16.134316",
+        "query": "Give me a pie chart of category revenue",
+        "response": "Here is the chart you requested. The pie chart of category revenue shows the distribution of revenue across different categories. Based on the Trend Agent data, the top growth categories are Chicken, Burgers, and Breakfast, with revenue growth percentages of 4045.91%, 1591.50%, and 1116.30%, respectively. \n\nSome key metrics to note are:\n* Chicken: 52 units sold, $384.74 revenue, 2500% quantity growth\n* Burgers: 53 units sold, $354.20 revenue, 1225% quantity growth\n* Breakfast: 63 units sold, $388.12 revenue, 1160% quantity growth\n\nIt's also important to highlight that there are low stock alerts for several products, including Spicy Chicken Sandwich (Combo), Crispy Chicken Sandwich (Combo), and Hotcakes (Combo), which may impact sales and revenue in these categories.",
+        "visualization": {
+          "chart_type": "pie",
+          "title": "Category Revenue",
+          "description": "Revenue distribution across different categories, with Chicken being the highest revenue-generating category.",
+          "data": [
+            {
+              "name": "Chicken",
+              "value": 384.74
+            },
+            {
+              "name": "Burgers",
+              "value": 354.2
+            },
+            {
+              "name": "Breakfast",
+              "value": 388.12
+            },
+            {
+              "name": "Sides",
+              "value": 226.92
+            },
+            {
+              "name": "Desserts",
+              "value": 192.16
+            },
+            {
+              "name": "Beverages",
+              "value": 226.21
+            },
+            {
+              "name": "McCafe",
+              "value": 277.14
+            }
+          ],
+          "x_key": "name",
+          "y_keys": [
+            {
+              "key": "value",
+              "label": "Revenue",
+              "color": "#6366f1"
+            }
+          ],
+          "insight": "The Breakfast category has the highest revenue, followed closely by Chicken, indicating a strong demand for these items.",
+          "query": "Give me a pie chart of category revenue"
+        },
+        "agent_data": {
+          "sales": {
+            "agent": "Sales Agent",
+            "total_actual_revenue": 30140.63,
+            "predicted_tomorrow_total": 1487.15,
+            "top_performing_stores": [
+              {
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "revenue": 1058.37,
+                "quantity": 208,
+                "orders": 63,
+                "customers": 58,
+                "avg_order_revenue": 16.7995,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 26,
+                "store_name": "Store #026 - Wilkersonmouth",
+                "city": "North Deniseside",
+                "state": "California",
+                "store_type": "Mall Location",
+                "revenue": 975.4,
+                "quantity": 184,
+                "orders": 59,
+                "customers": 57,
+                "avg_order_revenue": 16.5322,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "revenue": 963.45,
+                "quantity": 186,
+                "orders": 57,
+                "customers": 54,
+                "avg_order_revenue": 16.9026,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 7,
+                "store_name": "Store #007 - Lisatown",
+                "city": "Brandtside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 946.55,
+                "quantity": 195,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 17.5287,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "revenue": 915.83,
+                "quantity": 179,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 16.9598,
+                "performance_label": "Best-performing"
+              }
+            ],
+            "worst_performing_stores": [
+              {
+                "store_id": 33,
+                "store_name": "Store #033 - Tashatown",
+                "city": "Mooreport",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "revenue": 497.02,
+                "quantity": 105,
+                "orders": 40,
+                "customers": 37,
+                "avg_order_revenue": 12.4255,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 27,
+                "store_name": "Store #027 - West Donald",
+                "city": "North Sarabury",
+                "state": "Michigan",
+                "store_type": "Kiosk",
+                "revenue": 514.68,
+                "quantity": 107,
+                "orders": 38,
+                "customers": 37,
+                "avg_order_revenue": 13.5442,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 38,
+                "store_name": "Store #038 - Port Colleenhaven",
+                "city": "Port Jacobland",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 582.95,
+                "quantity": 110,
+                "orders": 46,
+                "customers": 44,
+                "avg_order_revenue": 12.6728,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 32,
+                "store_name": "Store #032 - South Patrickmouth",
+                "city": "Rodneyside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 607.19,
+                "quantity": 108,
+                "orders": 35,
+                "customers": 33,
+                "avg_order_revenue": 17.3483,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 8,
+                "store_name": "Store #008 - Lake Roberto",
+                "city": "Lake Larry",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 608.53,
+                "quantity": 120,
+                "orders": 36,
+                "customers": 35,
+                "avg_order_revenue": 16.9036,
+                "performance_label": "Low-performing"
+              }
+            ],
+            "tomorrow_top_stores": [
+              {
+                "order_date": "2026-07-13",
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "predicted_revenue": 65.3658
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "predicted_revenue": 65.1866
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "predicted_revenue": 64.1551
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 4,
+                "store_name": "Store #004 - East Jessetown",
+                "city": "North Jessicaland",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 62.3172
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 10,
+                "store_name": "Store #010 - North Noahstad",
+                "city": "Martinezbury",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 61.796
+              }
+            ],
+            "ml_metrics": {
+              "daily_sales": {
+                "mae": 21.2759,
+                "rmse": 154.2492,
+                "r2": 0.2508
+              },
+              "weekly_sales": {
+                "mae": 62.4333,
+                "rmse": 231.0331,
+                "r2": 0.645
+              },
+              "store_revenue": {
+                "mae": 5.501,
+                "rmse": 10.2292,
+                "r2": 0.732
+              },
+              "product_demand": {
+                "mae": 0.2068,
+                "rmse": 0.9209,
+                "r2": 0.7079
+              },
+              "customer_segmentation": {
+                "k": 2,
+                "silhouette": 0.2266
+              }
+            }
+          },
+          "inventory": {
+            "agent": "Inventory Agent",
+            "total_predicted_units_tomorrow": 242.0,
+            "top_demand_products": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "low_stock_alerts": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "overstock_products": [],
+            "low_stock_count": 16,
+            "overstock_count": 0
+          },
+          "trends": {
+            "agent": "Trend Agent",
+            "category_trends": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              },
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "growing_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              }
+            ],
+            "stable_categories": [
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "declining_categories": [],
+            "top_growth_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              }
+            ],
+            "summary": "6 categories growing, 1 stable, 0 declining."
+          }
+        }
+      },
+      {
+        "timestamp": "2026-07-14T23:19:00.679139",
+        "query": "Which store has the highest expected revenue?",
+        "response": "The store with the highest expected revenue is Store #018 - West Michael, with a predicted revenue of $65.37 for tomorrow. This store is also one of our top-performing stores, with a revenue of $1058.37 and an average order revenue of $16.80. \n\nSome key metrics for our top stores include:\n* Store #018 - West Michael: $1058.37 in revenue, 208 orders, and 58 customers\n* Store #026 - Wilkersonmouth: $975.40 in revenue, 184 orders, and 57 customers\n* Store #023 - East Lydiamouth: $963.45 in revenue, 186 orders, and 54 customers\n\nHowever, I would like to bring to your attention that we have low stock alerts for several products, including the Spicy Chicken Sandwich (Combo) and the Crispy Chicken Sandwich (Combo), which are both in high demand. It's essential to replenish our inventory to meet customer demand and avoid potential losses.",
+        "visualization": null,
+        "agent_data": {
+          "sales": {
+            "agent": "Sales Agent",
+            "total_actual_revenue": 30140.63,
+            "predicted_tomorrow_total": 1487.15,
+            "top_performing_stores": [
+              {
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "revenue": 1058.37,
+                "quantity": 208,
+                "orders": 63,
+                "customers": 58,
+                "avg_order_revenue": 16.7995,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 26,
+                "store_name": "Store #026 - Wilkersonmouth",
+                "city": "North Deniseside",
+                "state": "California",
+                "store_type": "Mall Location",
+                "revenue": 975.4,
+                "quantity": 184,
+                "orders": 59,
+                "customers": 57,
+                "avg_order_revenue": 16.5322,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "revenue": 963.45,
+                "quantity": 186,
+                "orders": 57,
+                "customers": 54,
+                "avg_order_revenue": 16.9026,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 7,
+                "store_name": "Store #007 - Lisatown",
+                "city": "Brandtside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 946.55,
+                "quantity": 195,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 17.5287,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "revenue": 915.83,
+                "quantity": 179,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 16.9598,
+                "performance_label": "Best-performing"
+              }
+            ],
+            "worst_performing_stores": [
+              {
+                "store_id": 33,
+                "store_name": "Store #033 - Tashatown",
+                "city": "Mooreport",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "revenue": 497.02,
+                "quantity": 105,
+                "orders": 40,
+                "customers": 37,
+                "avg_order_revenue": 12.4255,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 27,
+                "store_name": "Store #027 - West Donald",
+                "city": "North Sarabury",
+                "state": "Michigan",
+                "store_type": "Kiosk",
+                "revenue": 514.68,
+                "quantity": 107,
+                "orders": 38,
+                "customers": 37,
+                "avg_order_revenue": 13.5442,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 38,
+                "store_name": "Store #038 - Port Colleenhaven",
+                "city": "Port Jacobland",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 582.95,
+                "quantity": 110,
+                "orders": 46,
+                "customers": 44,
+                "avg_order_revenue": 12.6728,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 32,
+                "store_name": "Store #032 - South Patrickmouth",
+                "city": "Rodneyside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 607.19,
+                "quantity": 108,
+                "orders": 35,
+                "customers": 33,
+                "avg_order_revenue": 17.3483,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 8,
+                "store_name": "Store #008 - Lake Roberto",
+                "city": "Lake Larry",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 608.53,
+                "quantity": 120,
+                "orders": 36,
+                "customers": 35,
+                "avg_order_revenue": 16.9036,
+                "performance_label": "Low-performing"
+              }
+            ],
+            "tomorrow_top_stores": [
+              {
+                "order_date": "2026-07-13",
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "predicted_revenue": 65.3658
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "predicted_revenue": 65.1866
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "predicted_revenue": 64.1551
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 4,
+                "store_name": "Store #004 - East Jessetown",
+                "city": "North Jessicaland",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 62.3172
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 10,
+                "store_name": "Store #010 - North Noahstad",
+                "city": "Martinezbury",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 61.796
+              }
+            ],
+            "ml_metrics": {
+              "daily_sales": {
+                "mae": 21.2759,
+                "rmse": 154.2492,
+                "r2": 0.2508
+              },
+              "weekly_sales": {
+                "mae": 62.4333,
+                "rmse": 231.0331,
+                "r2": 0.645
+              },
+              "store_revenue": {
+                "mae": 5.501,
+                "rmse": 10.2292,
+                "r2": 0.732
+              },
+              "product_demand": {
+                "mae": 0.2068,
+                "rmse": 0.9209,
+                "r2": 0.7079
+              },
+              "customer_segmentation": {
+                "k": 2,
+                "silhouette": 0.2266
+              }
+            }
+          },
+          "inventory": {
+            "agent": "Inventory Agent",
+            "total_predicted_units_tomorrow": 242.0,
+            "top_demand_products": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "low_stock_alerts": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "overstock_products": [],
+            "low_stock_count": 16,
+            "overstock_count": 0
+          },
+          "trends": {
+            "agent": "Trend Agent",
+            "category_trends": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              },
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "growing_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              }
+            ],
+            "stable_categories": [
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "declining_categories": [],
+            "top_growth_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              }
+            ],
+            "summary": "6 categories growing, 1 stable, 0 declining."
+          }
+        }
+      },
+      {
+        "timestamp": "2026-07-14T23:19:09.784621",
+        "query": "Why are tomorrow's sales expected to increase?",
+        "response": "Tomorrow's sales are expected to increase, driven by strong performance from top stores such as Store #018 - West Michael and Store #016 - Port Jesseville, with predicted revenues of $65.37 and $65.19, respectively. The Sales Agent forecasts a total of $1,487.15 in sales for tomorrow. \n\nKey categories driving growth include:\n* Chicken, with 2,500% quantity growth and 4,045.91% revenue growth\n* Burgers, with 1,225% quantity growth and 1,591.5% revenue growth\n* Breakfast, with 1,160% quantity growth and 1,116.3% revenue growth\n\nHowever, I want to bring to your attention that there are low stock alerts for several top-demand products, including the Spicy Chicken Sandwich (Combo) and Crispy Chicken Sandwich (Combo), with predicted quantities of 5.93 and 5.92, respectively. It's essential to review inventory levels and consider reordering to meet tomorrow's demand.",
+        "visualization": {
+          "chart_type": "bar",
+          "title": "Tomorrow's Top 10 Store Revenue Predictions",
+          "description": "Tomorrow's top 10 store revenue predictions, with Store #018 - West Michael expected to have the highest revenue.",
+          "data": [
+            {
+              "name": "Store #018 - West Michael",
+              "value": 65.3658
+            },
+            {
+              "name": "Store #016 - Port Jesseville",
+              "value": 65.1866
+            },
+            {
+              "name": "Store #023 - East Lydiamouth",
+              "value": 64.1551
+            },
+            {
+              "name": "Store #004 - East Jessetown",
+              "value": 62.3172
+            },
+            {
+              "name": "Store #010 - North Noahstad",
+              "value": 61.796
+            },
+            {
+              "name": "Store #022 - Lake Mark",
+              "value": 61.4959
+            },
+            {
+              "name": "Store #014 - Lake Chad",
+              "value": 59.886
+            },
+            {
+              "name": "Store #003 - New Roberttown",
+              "value": 59.7896
+            },
+            {
+              "name": "Store #037 - Teresaburgh",
+              "value": 57.6624
+            },
+            {
+              "name": "Store #029 - Coxberg",
+              "value": 57.0753
+            }
+          ],
+          "x_key": "name",
+          "y_keys": [
+            {
+              "key": "value",
+              "label": "Predicted Revenue",
+              "color": "#6366f1"
+            }
+          ],
+          "insight": "Tomorrow's sales are expected to increase due to high predicted revenue from top-performing stores like Store #018 - West Michael and Store #016 - Port Jesseville.",
+          "query": "Why are tomorrow's sales expected to increase?"
+        },
+        "agent_data": {
+          "sales": {
+            "agent": "Sales Agent",
+            "total_actual_revenue": 30140.63,
+            "predicted_tomorrow_total": 1487.15,
+            "top_performing_stores": [
+              {
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "revenue": 1058.37,
+                "quantity": 208,
+                "orders": 63,
+                "customers": 58,
+                "avg_order_revenue": 16.7995,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 26,
+                "store_name": "Store #026 - Wilkersonmouth",
+                "city": "North Deniseside",
+                "state": "California",
+                "store_type": "Mall Location",
+                "revenue": 975.4,
+                "quantity": 184,
+                "orders": 59,
+                "customers": 57,
+                "avg_order_revenue": 16.5322,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "revenue": 963.45,
+                "quantity": 186,
+                "orders": 57,
+                "customers": 54,
+                "avg_order_revenue": 16.9026,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 7,
+                "store_name": "Store #007 - Lisatown",
+                "city": "Brandtside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 946.55,
+                "quantity": 195,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 17.5287,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "revenue": 915.83,
+                "quantity": 179,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 16.9598,
+                "performance_label": "Best-performing"
+              }
+            ],
+            "worst_performing_stores": [
+              {
+                "store_id": 33,
+                "store_name": "Store #033 - Tashatown",
+                "city": "Mooreport",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "revenue": 497.02,
+                "quantity": 105,
+                "orders": 40,
+                "customers": 37,
+                "avg_order_revenue": 12.4255,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 27,
+                "store_name": "Store #027 - West Donald",
+                "city": "North Sarabury",
+                "state": "Michigan",
+                "store_type": "Kiosk",
+                "revenue": 514.68,
+                "quantity": 107,
+                "orders": 38,
+                "customers": 37,
+                "avg_order_revenue": 13.5442,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 38,
+                "store_name": "Store #038 - Port Colleenhaven",
+                "city": "Port Jacobland",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 582.95,
+                "quantity": 110,
+                "orders": 46,
+                "customers": 44,
+                "avg_order_revenue": 12.6728,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 32,
+                "store_name": "Store #032 - South Patrickmouth",
+                "city": "Rodneyside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 607.19,
+                "quantity": 108,
+                "orders": 35,
+                "customers": 33,
+                "avg_order_revenue": 17.3483,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 8,
+                "store_name": "Store #008 - Lake Roberto",
+                "city": "Lake Larry",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 608.53,
+                "quantity": 120,
+                "orders": 36,
+                "customers": 35,
+                "avg_order_revenue": 16.9036,
+                "performance_label": "Low-performing"
+              }
+            ],
+            "tomorrow_top_stores": [
+              {
+                "order_date": "2026-07-13",
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "predicted_revenue": 65.3658
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "predicted_revenue": 65.1866
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "predicted_revenue": 64.1551
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 4,
+                "store_name": "Store #004 - East Jessetown",
+                "city": "North Jessicaland",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 62.3172
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 10,
+                "store_name": "Store #010 - North Noahstad",
+                "city": "Martinezbury",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 61.796
+              }
+            ],
+            "ml_metrics": {
+              "daily_sales": {
+                "mae": 21.2759,
+                "rmse": 154.2492,
+                "r2": 0.2508
+              },
+              "weekly_sales": {
+                "mae": 62.4333,
+                "rmse": 231.0331,
+                "r2": 0.645
+              },
+              "store_revenue": {
+                "mae": 5.501,
+                "rmse": 10.2292,
+                "r2": 0.732
+              },
+              "product_demand": {
+                "mae": 0.2068,
+                "rmse": 0.9209,
+                "r2": 0.7079
+              },
+              "customer_segmentation": {
+                "k": 2,
+                "silhouette": 0.2266
+              }
+            }
+          },
+          "inventory": {
+            "agent": "Inventory Agent",
+            "total_predicted_units_tomorrow": 242.0,
+            "top_demand_products": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "low_stock_alerts": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "overstock_products": [],
+            "low_stock_count": 16,
+            "overstock_count": 0
+          },
+          "trends": {
+            "agent": "Trend Agent",
+            "category_trends": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              },
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "growing_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              }
+            ],
+            "stable_categories": [
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "declining_categories": [],
+            "top_growth_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              }
+            ],
+            "summary": "6 categories growing, 1 stable, 0 declining."
+          }
+        }
+      },
+      {
+        "timestamp": "2026-07-14T23:20:54.028324",
+        "query": "show products demand in store with Area Charts",
+        "response": "Here is the chart you requested. The area chart displays the demand for products in stores, with the top demand products being Spicy Chicken Sandwich (Combo), Crispy Chicken Sandwich (Combo), and Hotcakes (Combo). \n\nKey metrics include:\n* Top demand products: \n  + Spicy Chicken Sandwich (Combo) with a predicted quantity of 5.9271\n  + Crispy Chicken Sandwich (Combo) with a predicted quantity of 5.9208\n  + Hotcakes (Combo) with a predicted quantity of 5.7264\n* Growing categories: \n  + Chicken with a quantity growth percentage of 2500.0% and revenue growth percentage of 4045.9052%\n  + Burgers with a quantity growth percentage of 1225.0% and revenue growth percentage of 1591.4995%\n  + Breakfast with a quantity growth percentage of 1160.0% and revenue growth percentage of 1116.2958%\n\nNotably, there are low stock alerts for 16 products, including the top demand products. It is essential to address these alerts to ensure sufficient stock levels and meet customer demand.",
+        "visualization": {
+          "chart_type": "area",
+          "title": "Product Demand in Store",
+          "description": "The chart shows the predicted quantity of top products in store for tomorrow, with Spicy Chicken Sandwich and Crispy Chicken Sandwich being the most in-demand products.",
+          "data": [
+            {
+              "name": "Spicy Chicken Sandwich (Combo)",
+              "predicted_quantity": 5.9271
+            },
+            {
+              "name": "Crispy Chicken Sandwich (Combo)",
+              "predicted_quantity": 5.9208
+            },
+            {
+              "name": "Hotcakes (Combo)",
+              "predicted_quantity": 5.7264
+            },
+            {
+              "name": "Latte (Combo)",
+              "predicted_quantity": 5.7175
+            },
+            {
+              "name": "Small Soda (Combo)",
+              "predicted_quantity": 5.6765
+            },
+            {
+              "name": "Large Fries (Combo)",
+              "predicted_quantity": 5.671
+            },
+            {
+              "name": "Double Beef Burger (Combo)",
+              "predicted_quantity": 5.6698
+            },
+            {
+              "name": "Crispy Chicken Sandwich (Combo)",
+              "predicted_quantity": 5.6664
+            },
+            {
+              "name": "Egg McMuffin Style (Combo)",
+              "predicted_quantity": 5.6604
+            },
+            {
+              "name": "Classic Cheeseburger (Combo)",
+              "predicted_quantity": 5.6526
+            }
+          ],
+          "x_key": "name",
+          "y_keys": [
+            {
+              "key": "predicted_quantity",
+              "label": "Predicted Quantity",
+              "color": "#6366f1"
+            }
+          ],
+          "insight": "The top products in demand for tomorrow are Spicy Chicken Sandwich and Crispy Chicken Sandwich, with predicted quantities of 5.9271 and 5.9208 respectively.",
+          "query": "show products demand in store with Area Charts"
+        },
+        "agent_data": {
+          "sales": {
+            "agent": "Sales Agent",
+            "total_actual_revenue": 30140.63,
+            "predicted_tomorrow_total": 1487.15,
+            "top_performing_stores": [
+              {
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "revenue": 1058.37,
+                "quantity": 208,
+                "orders": 63,
+                "customers": 58,
+                "avg_order_revenue": 16.7995,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 26,
+                "store_name": "Store #026 - Wilkersonmouth",
+                "city": "North Deniseside",
+                "state": "California",
+                "store_type": "Mall Location",
+                "revenue": 975.4,
+                "quantity": 184,
+                "orders": 59,
+                "customers": 57,
+                "avg_order_revenue": 16.5322,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "revenue": 963.45,
+                "quantity": 186,
+                "orders": 57,
+                "customers": 54,
+                "avg_order_revenue": 16.9026,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 7,
+                "store_name": "Store #007 - Lisatown",
+                "city": "Brandtside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 946.55,
+                "quantity": 195,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 17.5287,
+                "performance_label": "Best-performing"
+              },
+              {
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "revenue": 915.83,
+                "quantity": 179,
+                "orders": 54,
+                "customers": 51,
+                "avg_order_revenue": 16.9598,
+                "performance_label": "Best-performing"
+              }
+            ],
+            "worst_performing_stores": [
+              {
+                "store_id": 33,
+                "store_name": "Store #033 - Tashatown",
+                "city": "Mooreport",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "revenue": 497.02,
+                "quantity": 105,
+                "orders": 40,
+                "customers": 37,
+                "avg_order_revenue": 12.4255,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 27,
+                "store_name": "Store #027 - West Donald",
+                "city": "North Sarabury",
+                "state": "Michigan",
+                "store_type": "Kiosk",
+                "revenue": 514.68,
+                "quantity": 107,
+                "orders": 38,
+                "customers": 37,
+                "avg_order_revenue": 13.5442,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 38,
+                "store_name": "Store #038 - Port Colleenhaven",
+                "city": "Port Jacobland",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 582.95,
+                "quantity": 110,
+                "orders": 46,
+                "customers": 44,
+                "avg_order_revenue": 12.6728,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 32,
+                "store_name": "Store #032 - South Patrickmouth",
+                "city": "Rodneyside",
+                "state": "New York",
+                "store_type": "Drive-Thru",
+                "revenue": 607.19,
+                "quantity": 108,
+                "orders": 35,
+                "customers": 33,
+                "avg_order_revenue": 17.3483,
+                "performance_label": "Low-performing"
+              },
+              {
+                "store_id": 8,
+                "store_name": "Store #008 - Lake Roberto",
+                "city": "Lake Larry",
+                "state": "Georgia",
+                "store_type": "Drive-Thru",
+                "revenue": 608.53,
+                "quantity": 120,
+                "orders": 36,
+                "customers": 35,
+                "avg_order_revenue": 16.9036,
+                "performance_label": "Low-performing"
+              }
+            ],
+            "tomorrow_top_stores": [
+              {
+                "order_date": "2026-07-13",
+                "store_id": 18,
+                "store_name": "Store #018 - West Michael",
+                "city": "Leeville",
+                "state": "Pennsylvania",
+                "store_type": "Kiosk",
+                "predicted_revenue": 65.3658
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 16,
+                "store_name": "Store #016 - Port Jesseville",
+                "city": "New David",
+                "state": "Illinois",
+                "store_type": "Drive-Thru",
+                "predicted_revenue": 65.1866
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 23,
+                "store_name": "Store #023 - East Lydiamouth",
+                "city": "Taylorburgh",
+                "state": "Michigan",
+                "store_type": "Dine-In",
+                "predicted_revenue": 64.1551
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 4,
+                "store_name": "Store #004 - East Jessetown",
+                "city": "North Jessicaland",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 62.3172
+              },
+              {
+                "order_date": "2026-07-13",
+                "store_id": 10,
+                "store_name": "Store #010 - North Noahstad",
+                "city": "Martinezbury",
+                "state": "Illinois",
+                "store_type": "Dine-In",
+                "predicted_revenue": 61.796
+              }
+            ],
+            "ml_metrics": {
+              "daily_sales": {
+                "mae": 21.2759,
+                "rmse": 154.2492,
+                "r2": 0.2508
+              },
+              "weekly_sales": {
+                "mae": 62.4333,
+                "rmse": 231.0331,
+                "r2": 0.645
+              },
+              "store_revenue": {
+                "mae": 5.501,
+                "rmse": 10.2292,
+                "r2": 0.732
+              },
+              "product_demand": {
+                "mae": 0.2068,
+                "rmse": 0.9209,
+                "r2": 0.7079
+              },
+              "customer_segmentation": {
+                "k": 2,
+                "silhouette": 0.2266
+              }
+            }
+          },
+          "inventory": {
+            "agent": "Inventory Agent",
+            "total_predicted_units_tomorrow": 242.0,
+            "top_demand_products": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "low_stock_alerts": [
+              {
+                "order_date": "2026-07-13",
+                "product_id": 49,
+                "product_name": "Spicy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9271
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 33,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.9208
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 54,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.7264
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 46,
+                "product_name": "Latte (Combo)",
+                "category": "McCafe",
+                "predicted_quantity": 5.7175
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 36,
+                "product_name": "Hotcakes (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.686
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 52,
+                "product_name": "Small Soda (Combo)",
+                "category": "Beverages",
+                "predicted_quantity": 5.6765
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 53,
+                "product_name": "Large Fries (Combo)",
+                "category": "Sides",
+                "predicted_quantity": 5.671
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 38,
+                "product_name": "Double Beef Burger (Combo)",
+                "category": "Burgers",
+                "predicted_quantity": 5.6698
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 39,
+                "product_name": "Crispy Chicken Sandwich (Combo)",
+                "category": "Chicken",
+                "predicted_quantity": 5.6664
+              },
+              {
+                "order_date": "2026-07-13",
+                "product_id": 40,
+                "product_name": "Egg McMuffin Style (Combo)",
+                "category": "Breakfast",
+                "predicted_quantity": 5.6604
+              }
+            ],
+            "overstock_products": [],
+            "low_stock_count": 16,
+            "overstock_count": 0
+          },
+          "trends": {
+            "agent": "Trend Agent",
+            "category_trends": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              },
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "growing_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              },
+              {
+                "category": "Sides",
+                "quantity_last_30d": 57,
+                "revenue_last_30d": 226.92,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 21.43,
+                "quantity_growth_pct": 1040.0,
+                "revenue_growth_pct": 958.8894,
+                "trend": "Growing"
+              },
+              {
+                "category": "Desserts",
+                "quantity_last_30d": 48,
+                "revenue_last_30d": 192.16,
+                "quantity_prev_30d": 7.0,
+                "revenue_prev_30d": 24.89,
+                "quantity_growth_pct": 585.7143,
+                "revenue_growth_pct": 672.037,
+                "trend": "Growing"
+              },
+              {
+                "category": "Beverages",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 226.21,
+                "quantity_prev_30d": 11.0,
+                "revenue_prev_30d": 39.94,
+                "quantity_growth_pct": 472.7273,
+                "revenue_growth_pct": 466.3746,
+                "trend": "Growing"
+              }
+            ],
+            "stable_categories": [
+              {
+                "category": "McCafe",
+                "quantity_last_30d": 58,
+                "revenue_last_30d": 277.14,
+                "quantity_prev_30d": 0.0,
+                "revenue_prev_30d": 0.0,
+                "quantity_growth_pct": null,
+                "revenue_growth_pct": null,
+                "trend": "Stable"
+              }
+            ],
+            "declining_categories": [],
+            "top_growth_categories": [
+              {
+                "category": "Chicken",
+                "quantity_last_30d": 52,
+                "revenue_last_30d": 384.74,
+                "quantity_prev_30d": 2.0,
+                "revenue_prev_30d": 9.28,
+                "quantity_growth_pct": 2500.0,
+                "revenue_growth_pct": 4045.9052,
+                "trend": "Growing"
+              },
+              {
+                "category": "Burgers",
+                "quantity_last_30d": 53,
+                "revenue_last_30d": 354.2,
+                "quantity_prev_30d": 4.0,
+                "revenue_prev_30d": 20.94,
+                "quantity_growth_pct": 1225.0,
+                "revenue_growth_pct": 1591.4995,
+                "trend": "Growing"
+              },
+              {
+                "category": "Breakfast",
+                "quantity_last_30d": 63,
+                "revenue_last_30d": 388.12,
+                "quantity_prev_30d": 5.0,
+                "revenue_prev_30d": 31.91,
+                "quantity_growth_pct": 1160.0,
+                "revenue_growth_pct": 1116.2958,
+                "trend": "Growing"
+              }
+            ],
+            "summary": "6 categories growing, 1 stable, 0 declining."
+          }
+        }
+      }
+    ]
+  }
+}
