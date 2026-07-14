@@ -38,10 +38,17 @@ def _run_ml_pipeline():
         )
         if result.returncode == 0:
             _last_sync = datetime.now()
+            print(f"[SalesAI] ML Pipeline Success!")
             return {"status": "success", "output": result.stdout[-500:]}
         else:
+            print(f"\\n--- ML PIPELINE CRASHED ---")
+            print(f"STDOUT:\\n{result.stdout}")
+            print(f"STDERR:\\n{result.stderr}")
+            print("---------------------------\\n")
             return {"status": "error", "error": result.stderr[-500:]}
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return {"status": "error", "error": str(e)}
     finally:
         _sync_in_progress = False
@@ -52,6 +59,10 @@ async def executive_dashboard():
     try:
         return get_executive_summary()
     except Exception as e:
+        import traceback
+        print(f"\\n--- CRASH ON /executive ---")
+        traceback.print_exc()
+        print("---------------------------\\n")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -60,6 +71,9 @@ async def sales_dashboard():
     try:
         return get_sales_predictions()
     except Exception as e:
+        import traceback
+        print(f"\\n--- CRASH ON /sales ---")
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -68,6 +82,9 @@ async def inventory_dashboard():
     try:
         return get_inventory_data()
     except Exception as e:
+        import traceback
+        print(f"\\n--- CRASH ON /inventory ---")
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 
