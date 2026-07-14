@@ -79,7 +79,7 @@ function Sidebar({ syncInfo, onSync, syncing }) {
       <div className="mt-auto px-0">
         <div className="glass rounded-xl p-3">
           <p className="text-xs text-slate-500 mb-1">Powered by</p>
-          <p className="text-xs font-semibold text-brand-300">Gemini 2.5 Flash ✦</p>
+          <p className="text-xs font-semibold text-brand-300">Sibi ✦</p>
           <p className="text-xs text-slate-500 mt-0.5">Multi-Agent Orchestrator</p>
           <div className="flex items-center gap-1 mt-2">
             <CheckCircle2 size={10} className="text-emerald-400" />

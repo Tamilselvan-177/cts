@@ -179,7 +179,7 @@ export default function AIAssistant() {
       {
         role: "assistant",
         content:
-          "Hi! I'm your AI Business Assistant powered by Gemini 2.5 Flash.\n\n" +
+          "Hi! I'm Sibi, your AI Business Assistant.\n\n" +
           "I can analyse your live sales data, inventory, and ML predictions.\n\n" +
           "💡 Toggle the **Chart** button (top-right) to enable AI-generated charts alongside my answers!\n\n" +
           "Try asking:\n• Why are tomorrow's sales expected to increase?\n• Show revenue by store as a bar chart\n• Give me a pie chart of category revenue",
@@ -246,7 +246,7 @@ export default function AIAssistant() {
         <div className="flex items-start justify-between mb-4">
           <div>
             <h1 className="text-2xl font-bold text-white mb-1">AI Business Assistant</h1>
-            <p className="text-slate-400 text-sm">Multi-agent · Gemini 2.5 Flash · Live ML data</p>
+            <p className="text-slate-400 text-sm">Multi-agent · Sibi · Live ML data</p>
           </div>
 
           {/* ── TOP-RIGHT CONTROLS ── */}
@@ -355,7 +355,7 @@ export default function AIAssistant() {
                   {vizEnabled ? "Agents thinking + generating chart…" : "Agents thinking…"}
                 </div>
                 <div className="flex gap-1 mt-2 flex-wrap">
-                  {["Sales", "Inventory", "Trend", vizEnabled ? "Viz Agent" : null, "Gemini"].filter(Boolean).map((a, i) => (
+                  {["Sales", "Inventory", "Trend", vizEnabled ? "Viz Agent" : null, "Sibi"].filter(Boolean).map((a, i) => (
                     <span key={i} className="badge-blue animate-pulse-glow" style={{ animationDelay: `${i * 0.25}s` }}>
                       {a}
                     </span>
