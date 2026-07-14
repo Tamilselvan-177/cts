@@ -7,7 +7,7 @@ services:
       dockerfile: backend/Dockerfile
     container_name: salesai-backend
     ports:
-      - "8080:8000"
+      - "5050:8000"
     environment:
       - GEMINI_API_KEY=${GEMINI_API_KEY}
       - GROQ_API_KEY=${GROQ_API_KEY}
@@ -27,7 +27,7 @@ services:
       dockerfile: Dockerfile
     container_name: salesai-frontend
     ports:
-      - "8081:80"
+      - "5051:80"
     depends_on:
       - backend
     restart: unless-stopped
