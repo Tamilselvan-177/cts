@@ -8,20 +8,23 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api import dashboard, chat
+import traceback
+from fastapi import Request
+from fastapi.responses import JSONResponse
 
 
 async def _auto_sync_loop():
     """Re-run ML pipeline every 12 hours automatically."""
     while True:
-        await asyncio.sleep(12 * 60 * 60)  # 12 hours
         try:
             from app.api.dashboard import _run_ml_pipeline
             import asyncio as _asyncio
             loop = _asyncio.get_event_loop()
             await loop.run_in_executor(None, _run_ml_pipeline)
-            print("[SalesAI] Auto-sync completed (12-hour schedule)")
+            print("[SalesAI] Auto-sync completed")
         except Exception as e:
             print(f"[SalesAI] Auto-sync failed: {e}")
+        await asyncio.sleep(12 * 60 * 60)  # 12 hours
 
 
 @asynccontextmanager
@@ -39,6 +42,16 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan,
 )
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    print(f"\\n--- EXCEPTION CAUGHT ON {request.url.path} ---")
+    traceback.print_exc()
+    print("--------------------------------------------------\\n")
+    return JSONResponse(
+        status_code=500,
+        content={"detail": str(exc)},
+    )
 
 app.add_middleware(
     CORSMiddleware,
