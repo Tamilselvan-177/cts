@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: salesai-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - DATABRICKS_HOST=${DATABRICKS_HOST}
+      - DATABRICKS_TOKEN=${DATABRICKS_TOKEN}
+      - DATABRICKS_HTTP_PATH=${DATABRICKS_HTTP_PATH}
+    restart: unless-stopped
+    volumes:
+      # Optional: Mount the ML outputs if you want persistence across restarts
+      # - ./cts_ml_pipeline/outputs:/app/cts_ml_pipeline/outputs
+      # - ./cts_ml_pipeline/source_data:/app/cts_ml_pipeline/source_data
+      - ml_data:/app/cts_ml_pipeline
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: salesai-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  ml_data:
