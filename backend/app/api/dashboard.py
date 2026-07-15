@@ -4,7 +4,7 @@ from __future__ import annotations
 import asyncio
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException
@@ -37,7 +37,7 @@ def _run_ml_pipeline():
             timeout=300,
         )
         if result.returncode == 0:
-            _last_sync = datetime.now()
+            _last_sync = datetime.now(timezone.utc)
             print(f"[SalesAI] ML Pipeline Success!")
             return {"status": "success", "output": result.stdout[-500:]}
         else:

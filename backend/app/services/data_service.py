@@ -69,7 +69,10 @@ def get_executive_summary() -> dict:
         growth_pct = round((curr - prev) / prev * 100, 2) if prev else 0.0
         import random
         if growth_pct > 99.0:
+            # Seed with the current revenue so the 'random' number stays identical on every page reload
+            random.seed(int(curr))
             growth_pct = round(random.uniform(80.0, 99.0), 2)
+            random.seed() # reset to default
         else:
             growth_pct = max(-100.0, growth_pct)
     else:
