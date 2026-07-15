@@ -9,7 +9,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Install python dependencies
 COPY backend/requirements.txt /app/backend/
+COPY cts_ml_pipeline/requirements.txt /app/cts_ml_pipeline/
 RUN pip install --no-cache-dir -r /app/backend/requirements.txt
+RUN pip install --no-cache-dir -r /app/cts_ml_pipeline/requirements.txt
 # Ensure new generative ai SDK is installed
 RUN pip install --no-cache-dir google-generativeai pydantic
 
