@@ -54,12 +54,12 @@ function Sidebar({ syncInfo, onSync, syncing }) {
         <div className="flex items-center gap-2 mb-2">
           <Clock size={12} className="text-brand-400" />
           <p className="text-xs font-semibold text-white">Data Sync</p>
-          {syncInfo?.sync_in_progress && (
+          {(syncInfo?.sync_in_progress || syncing) && (
             <RefreshCw size={10} className="text-amber-400 animate-spin ml-auto" />
           )}
         </div>
         <p className="text-xs text-slate-500 mb-3">
-          {syncInfo?.sync_in_progress
+          {(syncInfo?.sync_in_progress || syncing)
             ? "Syncing ML pipeline…"
             : syncInfo?.last_sync
             ? `Last: ${new Date(syncInfo.last_sync).toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true })} (IST)`
@@ -106,12 +106,17 @@ export default function App() {
 
   const handleSync = async () => {
     setSyncing(true);
+    setSyncInfo(prev => ({ ...prev, sync_in_progress: true }));
     try {
       await triggerSync();
     } catch (e) {
       console.error("Sync error:", e);
     } finally {
-      setTimeout(() => setSyncing(false), 2000);
+      setTimeout(() => {
+        setSyncing(false);
+        // poll immediately after it's expected to be done
+        getSyncStatus().then(setSyncInfo).catch(() => {});
+      }, 2500);
     }
   };
 
